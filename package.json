@@ -1,0 +1,29 @@
+{
+    "name"       : "gitbook-raw-cli",
+    "version"    : "0.1.0",
+    "bin"        : "cli.js",
+    "repository" : "Donov4n/gitbook-raw-cli",
+    "author"     : "Donovan Lambert <d.lambert@cirize.com>",
+    "license"    : "MIT",
+    "keywords"   : [
+        "cli-app",
+        "cli",
+        "gitbook",
+        "gitbook-cli"
+    ],
+    "dependencies": {
+        "lodash"   : "^4.17.4",
+        "minimist" : "^1.2.0"
+    },
+    "peerDependencies": {
+        "gitbook": "2 - 3.2"
+    },
+    "engines": {
+        "node": ">=4"
+    },
+    "devDependencies": {
+        "eslint"                    : "^3.19.0",
+        "eslint-config-airbnb-base" : "^11.2.0",
+        "eslint-plugin-import"      : "^2.3.0"
+    }
+}
