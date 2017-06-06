@@ -1,7 +1,9 @@
 {
-    "extends" : "airbnb-base",
-    "env"     : { "node": true },
-    "rules"   : {
+    "extends"       : "airbnb-base",
+    "env"           : { "node": true },
+    "parserOptions" : { "sourceType" : "script" },
+    "rules"         : {
+        "strict" : ["error", "global"],
         "indent" : ["error", 4, {
             "SwitchCase"          : 1,
             "VariableDeclarator"  : 1,
