@@ -12,8 +12,8 @@
         "gitbook-cli"
     ],
     "dependencies": {
-        "lodash"   : "^4.17.4",
-        "minimist" : "^1.2.0"
+        "minimist"    : "^1.2.0",
+        "lodash.omit" : "^4.5.0"
     },
     "peerDependencies": {
         "gitbook": "^3.2.2"
